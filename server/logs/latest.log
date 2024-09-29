@@ -433,3 +433,10 @@
 [23:05:51] [Server thread/INFO]: [elvivace: Killed Cow]
 [23:06:03] [Server thread/INFO]: elvivace lost connection: Disconnected
 [23:06:03] [Server thread/INFO]: elvivace left the game.
+[23:06:45] [Server thread/INFO]: Stopping the server
+[23:06:45] [Server thread/INFO]: Stopping server
+[23:06:45] [Server thread/INFO]: Saving players
+[23:06:45] [Server thread/INFO]: Saving worlds
+[23:06:45] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[23:06:46] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[23:06:46] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
