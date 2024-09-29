@@ -1,442 +1,196 @@
-[22:52:30] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[22:52:30] [Server thread/INFO]: Loading properties
-[22:52:30] [Server thread/INFO]: Default game type: SURVIVAL
-[22:52:30] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[22:52:30] [Server thread/INFO]: Debug logging is disabled
-[22:52:30] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[22:52:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:19:20] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[23:19:20] [Server thread/INFO]: Loading properties
+[23:19:20] [Server thread/INFO]: Default game type: SURVIVAL
+[23:19:20] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[23:19:20] [Server thread/INFO]: Debug logging is disabled
+[23:19:20] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[23:19:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[22:52:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:52:30] [Server thread/INFO]: Data value allowed items: 
-[22:52:30] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[23:19:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:19:20] [Server thread/INFO]: Data value allowed items: 
+[23:19:20] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[22:52:30] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[23:19:20] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[22:52:30] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[23:19:20] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[22:52:30] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[23:19:20] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[22:52:30] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[23:19:20] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[22:52:30] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[23:19:20] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[22:52:30] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[23:19:20] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[22:52:30] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[23:19:20] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[22:52:30] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[23:19:20] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[22:52:30] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[23:19:20] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[22:52:31] [Server thread/INFO]: Generating keypair
-[22:52:31] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[22:52:31] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[22:52:31] [Server thread/INFO]: Using default channel type
-[22:52:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:52:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:52:31] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[22:52:31] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[22:52:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:52:31] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[22:52:31] [Server thread/INFO]: Preparing level "world"
-[22:52:31] [Server thread/INFO]: -------- World Settings For [world] --------
-[22:52:31] [Server thread/INFO]: Mob Spawn Range: 4
-[22:52:31] [Server thread/INFO]: Anti X-Ray: true
-[22:52:31] [Server thread/INFO]: 	Engine Mode: 1
-[22:52:31] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[22:52:31] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[22:52:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:52:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[22:52:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:52:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[22:52:31] [Server thread/INFO]: Random Lighting Updates: false
-[22:52:31] [Server thread/INFO]: Structure Info Saving: true
-[22:52:31] [Server thread/INFO]: Sending up to 10 chunks per packet
-[22:52:31] [Server thread/INFO]: Max Entity Collisions: 8
-[22:52:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[22:52:31] [Server thread/INFO]: Max TNT Explosions: 100
-[22:52:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:52:31] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:52:31] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:52:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:52:31] [Server thread/INFO]: View Distance: 4
-[22:52:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:52:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:52:31] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[22:52:31] [Server thread/INFO]: Clear tick list: false
-[22:52:31] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:52:31] [Server thread/INFO]: -------- World Settings For [world] --------
-[22:52:31] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[22:52:31] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[22:52:31] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[22:52:31] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[22:52:31] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[22:52:31] [Server thread/INFO]: Water over lava flow speed: 5
-[22:52:31] [Server thread/INFO]: Fix TNT cannons: false
-[22:52:31] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[22:52:31] [Server thread/INFO]: Keep spawn chunk loaded: true
-[22:52:31] [Server thread/INFO]: World async lighting: false
-[22:52:31] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[22:52:31] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[22:52:31] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[22:52:31] [Server thread/INFO]: Mob Spawn Range: 4
-[22:52:31] [Server thread/INFO]: Anti X-Ray: true
-[22:52:31] [Server thread/INFO]: 	Engine Mode: 1
-[22:52:31] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[22:52:31] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[22:52:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:52:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[22:52:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:52:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[22:52:31] [Server thread/INFO]: Random Lighting Updates: false
-[22:52:31] [Server thread/INFO]: Structure Info Saving: true
-[22:52:31] [Server thread/INFO]: Sending up to 10 chunks per packet
-[22:52:31] [Server thread/INFO]: Max Entity Collisions: 8
-[22:52:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[22:52:31] [Server thread/INFO]: Max TNT Explosions: 100
-[22:52:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:52:31] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:52:31] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:52:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:52:31] [Server thread/INFO]: View Distance: 4
-[22:52:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:52:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:52:31] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[22:52:31] [Server thread/INFO]: Clear tick list: false
-[22:52:31] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:52:31] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[22:52:31] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[22:52:31] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[22:52:31] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[22:52:31] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[22:52:31] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[22:52:31] [Server thread/INFO]: Water over lava flow speed: 5
-[22:52:31] [Server thread/INFO]: Fix TNT cannons: false
-[22:52:31] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[22:52:31] [Server thread/INFO]: Keep spawn chunk loaded: true
-[22:52:31] [Server thread/INFO]: World async lighting: false
-[22:52:31] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[22:52:31] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[22:52:31] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[22:52:31] [Server thread/INFO]: Mob Spawn Range: 4
-[22:52:31] [Server thread/INFO]: Anti X-Ray: true
-[22:52:31] [Server thread/INFO]: 	Engine Mode: 1
-[22:52:31] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[22:52:31] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[22:52:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:52:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:52:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[22:52:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:52:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[22:52:31] [Server thread/INFO]: Random Lighting Updates: false
-[22:52:31] [Server thread/INFO]: Structure Info Saving: true
-[22:52:31] [Server thread/INFO]: Sending up to 10 chunks per packet
-[22:52:31] [Server thread/INFO]: Max Entity Collisions: 8
-[22:52:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[22:52:31] [Server thread/INFO]: Max TNT Explosions: 100
-[22:52:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:52:31] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:52:31] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:52:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:52:31] [Server thread/INFO]: View Distance: 4
-[22:52:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:52:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:52:31] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[22:52:31] [Server thread/INFO]: Clear tick list: false
-[22:52:31] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:52:31] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[22:52:31] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[22:52:31] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[22:52:31] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[22:52:31] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[22:52:31] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[22:52:31] [Server thread/INFO]: Water over lava flow speed: 5
-[22:52:31] [Server thread/INFO]: Fix TNT cannons: false
-[22:52:31] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[22:52:31] [Server thread/INFO]: Keep spawn chunk loaded: true
-[22:52:31] [Server thread/INFO]: World async lighting: false
-[22:52:31] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[22:52:31] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[22:52:31] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6198375441241065924)
-[22:52:32] [Server thread/INFO]: Preparing spawn area: 70%
-[22:52:32] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6198375441241065924)
-[22:52:33] [Server thread/INFO]: Preparing start region for level 2 (Seed: 6198375441241065924)
-[22:52:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:52:33] [Server thread/INFO]: Done (2.633s)! For help, type "help" or "?"
-[22:52:33] [Server thread/INFO]: Timings Reset
-[22:53:57] [Thread-5/INFO]: UUID of player elvivace is c845e442-9c22-39ee-833f-6f92ce587304
-[22:53:57] [Server thread/INFO]: elvivace[/[0:0:0:0:0:0:0:1]:44810] logged in with entity id 222 at ([world]81.5, 69.0, 262.5)
-[22:54:18] [Server thread/INFO]: elvivace has just earned the achievement [Taking Inventory]
-[22:55:02] [Server thread/INFO]: elvivace issued server command: /gamemode 1
-[22:55:11] [Server thread/INFO]: Opped elvivace
-[22:55:13] [Server thread/INFO]: elvivace issued server command: /gamemode 1
-[22:55:13] [Server thread/INFO]: [elvivace: Set own game mode to Creative Mode]
-[22:56:20] [Server thread/INFO]: elvivace issued server command: /fill 74 63 270
-[22:56:58] [Server thread/INFO]: elvivace issued server command: /fill 74 63 270 163 63 225 air
-[22:56:58] [Server thread/INFO]: [elvivace: 3811 blocks filled]
-[22:57:18] [Server thread/INFO]: elvivace issued server command: /fill 74 63 270 163 70 225 air
-[22:57:18] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (33120 > 32768)]
-[22:57:21] [Server thread/INFO]: elvivace issued server command: /fill 74 63 270 163 70 225 air
-[22:57:21] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (33120 > 32768)]
-[22:57:30] [Server thread/INFO]: elvivace issued server command: /fill 74 63 270 163 65 225 air
-[22:57:30] [Server thread/INFO]: [elvivace: 5985 blocks filled]
-[22:57:43] [Server thread/INFO]: elvivace issued server command: /fill 74 63 270 163 67 225 air
-[22:57:43] [Server thread/INFO]: [elvivace: 4069 blocks filled]
-[22:57:49] [Server thread/INFO]: elvivace issued server command: /fill 74 63 270 163 70 225 air
-[22:57:49] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (33120 > 32768)]
-[22:57:59] [Server thread/INFO]: elvivace issued server command: /fill 74 63 270 163 69 225 air
-[22:57:59] [Server thread/INFO]: [elvivace: 1539 blocks filled]
-[22:58:22] [Server thread/INFO]: elvivace issued server command: /fill 74 63 270 163 63 225 grass
-[22:58:22] [Server thread/INFO]: [elvivace: 4140 blocks filled]
-[22:59:19] [Async Chat Thread - #0/INFO]: <elvivace> t[m
-
-[23:00:01] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225
-[23:00:16] [Server thread/INFO]: [Server] skibidi toilet
-[23:00:39] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225 74 65 160
-[23:00:43] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225 74 65 160 air
-[23:00:43] [Server thread/INFO]: [elvivace: 14859 blocks filled]
-[23:00:54] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225 74 68 160 air
-[23:00:54] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (35640 > 32768)]
-[23:01:00] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225 74 67 160 air
-[23:01:00] [Server thread/INFO]: [elvivace: 7167 blocks filled]
-[23:01:22] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225 74 68 160 air
-[23:01:22] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (35640 > 32768)]
-[23:01:37] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225 74 69 160 air
-[23:01:37] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (41580 > 32768)]
-[23:01:49] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225 74 68 160 air
-[23:01:49] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (35640 > 32768)]
-[23:02:03] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225 74 67 160 air
-[23:02:03] [Server thread/INFO]: [elvivace: 2 blocks filled]
-[23:02:10] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225 74 68 160 air
-[23:02:10] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (35640 > 32768)]
-[23:02:37] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225 74 63 160 grass
-[23:02:38] [Server thread/INFO]: [elvivace: 5940 blocks filled]
-[23:02:56] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 68 160 air
-[23:02:56] [Server thread/INFO]: [elvivace: 2152 blocks filled]
-[23:03:07] [Server thread/INFO]: elvivace issued server command: /fill 163 64 225 74 68 160 air
-[23:03:07] [Server thread/INFO]: [elvivace: No blocks filled]
-[23:03:26] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 69 160 air
-[23:03:26] [Server thread/INFO]: [elvivace: 1390 blocks filled]
-[23:03:34] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 71 160 air
-[23:03:34] [Server thread/INFO]: [elvivace: 2950 blocks filled]
-[23:03:40] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 76 160 air
-[23:03:40] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (53460 > 32768)]
-[23:03:49] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 76 160 air
-[23:03:49] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (53460 > 32768)]
-[23:03:50] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 76 160 air
-[23:03:50] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (53460 > 32768)]
-[23:03:51] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 76 160 air
-[23:03:51] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (53460 > 32768)]
-[23:03:56] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 75 160 air
-[23:03:56] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (47520 > 32768)]
-[23:04:01] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 74 160 air
-[23:04:01] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (41580 > 32768)]
-[23:04:05] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 73 160 air
-[23:04:05] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (35640 > 32768)]
-[23:04:12] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 72 160 air
-[23:04:12] [Server thread/INFO]: [elvivace: 1150 blocks filled]
-[23:04:39] [Server thread/INFO]: elvivace issued server command: /fill 163 225 74 76 160 air
-[23:04:53] [Server thread/INFO]: elvivace issued server command: /fill 163 72 225 74 76 160 air
-[23:04:53] [Server thread/INFO]: [elvivace: 1461 blocks filled]
-[23:05:02] [Server thread/INFO]: elvivace issued server command: /fill 163 72 225 74 78 160 air
-[23:05:02] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (41580 > 32768)]
-[23:05:09] [Server thread/INFO]: elvivace issued server command: /fill 163 77 225 74 78 160 air
-[23:05:09] [Server thread/INFO]: [elvivace: 66 blocks filled]
-[23:05:41] [Server thread/INFO]: elvivace issued server command: /gamerule doMobSpawning false
-[23:05:41] [Server thread/INFO]: [elvivace: Game rule has been updated]
-[23:05:50] [Server thread/INFO]: elvivace issued server command: /kill @e
-[23:05:50] [Server thread/INFO]: elvivace fell out of the world
-[23:05:50] [Server thread/INFO]: [elvivace: Killed elvivace]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.sapling.oak]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.feather]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.chickenRaw]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Creeper]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.flower1.dandelion]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.chickenRaw]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.feather]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.flower1.dandelion]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.flower1.dandelion]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.flower1.dandelion]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.doublePlant.paeonia]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.chickenRaw]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.flower1.dandelion]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.chickenRaw]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Spider]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.sapling.oak]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Cow]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Bat]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.sapling.oak]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.flower1.dandelion]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.flower1.dandelion]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Creeper]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.flower1.dandelion]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Enderman]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Enderman]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.sapling.oak]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.flower1.dandelion]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.flower1.dandelion]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Skeleton]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.seeds]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Skeleton]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Skeleton]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Skeleton]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Skeleton]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Skeleton]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Creeper]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Skeleton]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Enderman]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.sapling.oak]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Creeper]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Spider]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Skeleton]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Creeper]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.flower2.poppy]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Skeleton]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Bat]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Bat]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Creeper]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.tile.doublePlant.syringa]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Spider]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Creeper]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Bat]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Bat]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed item.item.egg]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Zombie]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Creeper]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:50] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Chicken]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Sheep]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Pig]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Pig]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Pig]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Pig]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Cow]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Cow]
-[23:05:51] [Server thread/INFO]: [elvivace: Killed Cow]
-[23:06:03] [Server thread/INFO]: elvivace lost connection: Disconnected
-[23:06:03] [Server thread/INFO]: elvivace left the game.
-[23:06:45] [Server thread/INFO]: Stopping the server
-[23:06:45] [Server thread/INFO]: Stopping server
-[23:06:45] [Server thread/INFO]: Saving players
-[23:06:45] [Server thread/INFO]: Saving worlds
-[23:06:45] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[23:06:46] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[23:06:46] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[23:19:20] [Server thread/INFO]: Generating keypair
+[23:19:20] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[23:19:20] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[23:19:20] [Server thread/INFO]: Using default channel type
+[23:19:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:19:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:19:20] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[23:19:20] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[23:19:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:19:20] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[23:19:20] [Server thread/INFO]: Preparing level "world"
+[23:19:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[23:19:20] [Server thread/INFO]: Mob Spawn Range: 4
+[23:19:20] [Server thread/INFO]: Anti X-Ray: true
+[23:19:20] [Server thread/INFO]: 	Engine Mode: 1
+[23:19:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[23:19:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[23:19:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:19:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[23:19:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:19:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[23:19:20] [Server thread/INFO]: Random Lighting Updates: false
+[23:19:20] [Server thread/INFO]: Structure Info Saving: true
+[23:19:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[23:19:20] [Server thread/INFO]: Max Entity Collisions: 8
+[23:19:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[23:19:20] [Server thread/INFO]: Max TNT Explosions: 100
+[23:19:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:19:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:19:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:19:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:19:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:19:20] [Server thread/INFO]: View Distance: 4
+[23:19:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:19:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[23:19:20] [Server thread/INFO]: Clear tick list: false
+[23:19:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:19:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[23:19:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[23:19:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[23:19:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[23:19:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[23:19:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[23:19:20] [Server thread/INFO]: Water over lava flow speed: 5
+[23:19:20] [Server thread/INFO]: Fix TNT cannons: false
+[23:19:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[23:19:20] [Server thread/INFO]: Keep spawn chunk loaded: true
+[23:19:20] [Server thread/INFO]: World async lighting: false
+[23:19:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[23:19:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[23:19:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[23:19:20] [Server thread/INFO]: Mob Spawn Range: 4
+[23:19:20] [Server thread/INFO]: Anti X-Ray: true
+[23:19:20] [Server thread/INFO]: 	Engine Mode: 1
+[23:19:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[23:19:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[23:19:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:19:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:19:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[23:19:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:19:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[23:19:20] [Server thread/INFO]: Random Lighting Updates: false
+[23:19:20] [Server thread/INFO]: Structure Info Saving: true
+[23:19:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[23:19:20] [Server thread/INFO]: Max Entity Collisions: 8
+[23:19:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[23:19:21] [Server thread/INFO]: Max TNT Explosions: 100
+[23:19:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:19:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:19:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:19:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:19:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:19:21] [Server thread/INFO]: View Distance: 4
+[23:19:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:19:21] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[23:19:21] [Server thread/INFO]: Clear tick list: false
+[23:19:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:19:21] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[23:19:21] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[23:19:21] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[23:19:21] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[23:19:21] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[23:19:21] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[23:19:21] [Server thread/INFO]: Water over lava flow speed: 5
+[23:19:21] [Server thread/INFO]: Fix TNT cannons: false
+[23:19:21] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[23:19:21] [Server thread/INFO]: Keep spawn chunk loaded: true
+[23:19:21] [Server thread/INFO]: World async lighting: false
+[23:19:21] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[23:19:21] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[23:19:21] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[23:19:21] [Server thread/INFO]: Mob Spawn Range: 4
+[23:19:21] [Server thread/INFO]: Anti X-Ray: true
+[23:19:21] [Server thread/INFO]: 	Engine Mode: 1
+[23:19:21] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[23:19:21] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[23:19:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:19:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:19:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:19:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:19:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:19:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:19:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:19:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:19:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:19:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[23:19:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:19:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[23:19:21] [Server thread/INFO]: Random Lighting Updates: false
+[23:19:21] [Server thread/INFO]: Structure Info Saving: true
+[23:19:21] [Server thread/INFO]: Sending up to 10 chunks per packet
+[23:19:21] [Server thread/INFO]: Max Entity Collisions: 8
+[23:19:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[23:19:21] [Server thread/INFO]: Max TNT Explosions: 100
+[23:19:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:19:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:19:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:19:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:19:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:19:21] [Server thread/INFO]: View Distance: 4
+[23:19:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:19:21] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[23:19:21] [Server thread/INFO]: Clear tick list: false
+[23:19:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:19:21] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[23:19:21] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[23:19:21] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[23:19:21] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[23:19:21] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[23:19:21] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[23:19:21] [Server thread/INFO]: Water over lava flow speed: 5
+[23:19:21] [Server thread/INFO]: Fix TNT cannons: false
+[23:19:21] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[23:19:21] [Server thread/INFO]: Keep spawn chunk loaded: true
+[23:19:21] [Server thread/INFO]: World async lighting: false
+[23:19:21] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[23:19:21] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[23:19:21] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6198375441241065924)
+[23:19:22] [Server thread/INFO]: Preparing spawn area: 78%
+[23:19:22] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6198375441241065924)
+[23:19:23] [Server thread/INFO]: Preparing start region for level 2 (Seed: 6198375441241065924)
+[23:19:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:19:23] [Server thread/INFO]: Done (2.596s)! For help, type "help" or "?"
+[23:19:23] [Server thread/INFO]: Timings Reset
+[23:19:43] [Server thread/INFO]: Stopping the server
+[23:19:43] [Server thread/INFO]: Stopping server
+[23:19:43] [Server thread/INFO]: Saving players
+[23:19:43] [Server thread/INFO]: Saving worlds
+[23:19:43] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[23:19:44] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[23:19:44] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
