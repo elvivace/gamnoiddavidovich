@@ -49,3 +49,12 @@
 [22:40:13] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
 [22:40:13] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
 [22:44:22] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/gamnoiddavidovich/bungee/server-icon.png
+[22:48:11] [Shutdown Thread/INFO]: Closing listener [id: 0x4dbd7b20, L:/127.0.0.1:25577]
+[22:48:11] [Shutdown Thread/INFO]: Closing pending connections
+[22:48:11] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[22:48:12] [Shutdown Thread/INFO]: Disabling plugins
+[22:48:12] [Shutdown Thread/INFO] [EaglercraftXBungee]: Eaglercraft listener closed: /0.0.0.0:8081
+[22:48:12] [Shutdown Thread/INFO] [EaglercraftXBungee]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[22:48:12] [Shutdown Thread/INFO] [EaglercraftXBungee]: Stopping skin cache HTTP client...
+[22:48:14] [Shutdown Thread/INFO]: Closing IO threads
+[22:48:16] [Shutdown Thread/INFO]: Thank you and goodbye

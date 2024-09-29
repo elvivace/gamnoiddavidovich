@@ -188,3 +188,10 @@
 [22:39:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
 [22:39:59] [Server thread/INFO]: Done (4.090s)! For help, type "help" or "?"
 [22:39:59] [Server thread/INFO]: Timings Reset
+[22:48:05] [Server thread/INFO]: Stopping the server
+[22:48:05] [Server thread/INFO]: Stopping server
+[22:48:05] [Server thread/INFO]: Saving players
+[22:48:06] [Server thread/INFO]: Saving worlds
+[22:48:06] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:48:06] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[22:48:06] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
