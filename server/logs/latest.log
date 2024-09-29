@@ -232,3 +232,11 @@
 [23:02:03] [Server thread/INFO]: [elvivace: 2 blocks filled]
 [23:02:10] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225 74 68 160 air
 [23:02:10] [Server thread/INFO]: [elvivace: Too many blocks in the specified area (35640 > 32768)]
+[23:02:37] [Server thread/INFO]: elvivace issued server command: /fill 163 63 225 74 63 160 grass
+[23:02:38] [Server thread/INFO]: [elvivace: 5940 blocks filled]
+[23:02:56] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 68 160 air
+[23:02:56] [Server thread/INFO]: [elvivace: 2152 blocks filled]
+[23:03:07] [Server thread/INFO]: elvivace issued server command: /fill 163 64 225 74 68 160 air
+[23:03:07] [Server thread/INFO]: [elvivace: No blocks filled]
+[23:03:26] [Server thread/INFO]: elvivace issued server command: /fill 163 68 225 74 69 160 air
+[23:03:26] [Server thread/INFO]: [elvivace: 1390 blocks filled]
