@@ -54,3 +54,6 @@
 [22:53:56] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39628]: Logged in as 'elvivace'
 [22:53:56] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:39628|elvivace] -> UpstreamBridge has connected
 [22:53:57] [Netty Worker IO Thread #0/INFO]: [elvivace|/[0:0:0:0:0:0:0:1%0]:39628] <-> ServerConnector [lobby] has connected
+[23:06:03] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:39628|elvivace] -> UpstreamBridge has disconnected
+[23:06:03] [Netty Worker IO Thread #0/INFO]: [elvivace] disconnected with: Proxy lost connection to server.
+[23:06:03] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:39628|elvivace] <-> DownstreamBridge <-> [lobby] has disconnected
