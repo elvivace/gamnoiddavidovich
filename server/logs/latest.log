@@ -309,3 +309,36 @@
 [00:52:00] [Server thread/INFO]: elvivace issued server command: /setspawn
 [00:52:41] [Server thread/INFO]: elvivace issued server command: /time set day
 [00:53:08] [Server thread/INFO]: elvivace issued server command: /spawn
+[00:55:19] [Server thread/INFO]: Stopping the server
+[00:55:19] [Server thread/INFO]: Stopping server
+[00:55:19] [Server thread/INFO]: Disabling EssentialsChat v2.20.1
+[00:55:19] [Server thread/INFO]: Disabling EssentialsSpawn v2.20.1
+[00:55:19] [Server thread/INFO]: Disabling Essentials v2.20.1
+[00:55:19] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[00:55:19] [Server thread/INFO]: [TAB] Disabling TAB v4.1.8
+[00:55:19] [Server thread/INFO]: [TAB] [0;32;1mDisabled in 5ms[m
+
+[00:55:19] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.3-SNAPSHOT;c904242
+[00:55:19] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[00:55:19] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.7.4
+[00:55:19] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[00:55:19] [Server thread/INFO]: | Tasks : Stopped all tasks.
+[00:55:19] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
+[00:55:19] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[00:55:19] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[00:55:19] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[00:55:19] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[00:55:19] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.9;caf0ad9
+[00:55:19] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.141
+[00:55:19] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:55:19] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:55:20] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:55:20] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[00:55:20] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[00:55:20] [Server thread/INFO]: Saving players
+[00:55:20] [Server thread/INFO]: elvivace lost connection: Server closed
+[00:55:20] [Server thread/INFO]: elvivace left the game.
+[00:55:20] [Server thread/INFO]: Saving worlds
+[00:55:20] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[00:55:20] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[00:55:20] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
