@@ -6,3 +6,13 @@
 [00:02:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47778]: Logged in as 'elvivace'
 [00:02:29] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47778|elvivace] -> UpstreamBridge has connected
 [00:02:29] [Netty Worker IO Thread #0/INFO]: [elvivace|/[0:0:0:0:0:0:0:1%0]:47778] <-> ServerConnector [lobby] has connected
+[00:07:35] [Netty Worker IO Thread #0/INFO]: [elvivace] disconnected with: Server closed
+[00:07:35] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47778|elvivace] -> UpstreamBridge has disconnected
+[00:07:35] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47778|elvivace] <-> DownstreamBridge <-> [lobby] has disconnected
+[00:08:05] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37566]: Connected via websocket
+[00:08:05] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37566]: Origin header is null
+[00:08:05] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37566]: Logged in as 'elvivace'
+[00:08:05] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:37566|elvivace] -> UpstreamBridge has connected
+[00:08:05] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for elvivace AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[00:08:05] [Netty Worker IO Thread #3/INFO]: [elvivace] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[00:08:05] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:37566|elvivace] -> UpstreamBridge has disconnected

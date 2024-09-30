@@ -36,6 +36,7 @@ world-settings:
       flat-bedrock: false
     allow-block-location-tab-completion: true
     disable-teleportation-suffocation-check: false
+    player-blocking-damage-multiplier: 0.5
     optimize-explosions: false
     mob-spawner-tick-rate: 1
     cache-chunk-maps: false
@@ -55,16 +56,8 @@ world-settings:
     despawn-ranges:
       soft: 32
       hard: 128
-    falling-block-height-nerf: 0
-    nether-ceiling-void-damage: false
-    player-blocking-damage-multiplier: 0.5
-    fast-drain:
-      lava: false
-      water: false
-    lava-flow-speed:
-      normal: 30
-      nether: 10
     remove-invalid-mob-spawner-tile-entities: true
+    falling-block-height-nerf: 0
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
@@ -74,17 +67,26 @@ world-settings:
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
+    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
+    fast-drain:
+      lava: false
+      water: false
+    lava-flow-speed:
+      normal: 30
+      nether: 10
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
-    all-chunks-are-slime-chunks: false
-    allow-undead-horse-leashing: false
     fix-cannons: false
     tnt-entity-height-nerf: 0
     use-hopper-check: false
+    all-chunks-are-slime-chunks: false
+    allow-undead-horse-leashing: false
+    keep-spawn-loaded: true
+    container-update-tick-rate: 1
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
@@ -93,5 +95,3 @@ world-settings:
     disable-ice-and-snow: false
     tick-next-tick-list-cap: 10000
     tick-next-tick-list-cap-ignores-redstone: false
-    container-update-tick-rate: 1
-    keep-spawn-loaded: true
