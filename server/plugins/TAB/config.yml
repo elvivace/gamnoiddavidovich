@@ -2,18 +2,14 @@
 header-footer:
   enabled: true
   header:
-    - "<#FFFFFF>&m                                                </#FFFF00>"
-    - "&3&lServer name"
-    - "&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
+    - "<#FFAA00>&m                                                </#555555>"
+    - "%animation:Logo%"
+    - "&7&l>> Welcome &3 &l%player%&7&l! &7&l<<"
     - "&7Online players: &f%online%"
-    - "&6Online staff: &e%staffonline%"
     - ""
   footer:
-    - "%animation:time%"
-    - "&2Ping: %ping%"
     - ""
-    - "&7Visit our webpage %animation:web%"
-    - "<#FFFFFF>&m                                                </#FFFF00>"
+    - "<#FFAA00>&m                                                </#555555>"
   disable-condition: '%world%=disabledworld'
   per-world:
     world1:
@@ -97,7 +93,7 @@ bossbar:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
 scoreboard:
-  enabled: true
+  enabled: false
   toggle-command: /sb
   remember-toggle-choice: false
   hidden-by-default: false
@@ -107,10 +103,8 @@ scoreboard:
   respect-other-plugins: true
   scoreboards:
     scoreboard:
-      title: "<#E0B11E>MyServer</#FF0000>"
+      title: "%animation:Logo%"
       lines:
-        - "&7%date%"
-        - "%animation:MyAnimation1%"
         - "&6Online:"
         - "* &eOnline&7: &f%online%"
         - "* &eCurrent World&7: &f%worldonline%"
