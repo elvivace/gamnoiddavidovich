@@ -21,3 +21,6 @@
 [00:09:13] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57616]: Logged in as 'elvivace'
 [00:09:13] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:57616|elvivace] -> UpstreamBridge has connected
 [00:09:13] [Netty Worker IO Thread #2/INFO]: [elvivace|/[0:0:0:0:0:0:0:1%0]:57616] <-> ServerConnector [lobby] has connected
+[00:11:57] [Netty Worker IO Thread #2/INFO]: [elvivace] disconnected with: Server is restarting
+[00:11:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:57616|elvivace] -> UpstreamBridge has disconnected
+[00:11:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:57616|elvivace] <-> DownstreamBridge <-> [lobby] has disconnected

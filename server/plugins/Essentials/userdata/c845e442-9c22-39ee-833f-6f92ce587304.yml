@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1727654402781
+  logout: 1727655117461
   login: 1727654953421
 money: '0'
 last-account-name: elvivace
 logoutlocation:
   world: 942d7eb2-df7f-46b9-b71c-d417e5ba38de
   world-name: world
-  x: 97.38862339019835
+  x: 123.23186639212179
   y: 64.0
-  z: 174.04742345694447
-  yaw: 22.800003051757812
-  pitch: 57.45000457763672
+  z: 174.9278252238403
+  yaw: 298.5000305175781
+  pitch: -5.850001335144043
