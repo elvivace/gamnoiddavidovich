@@ -6,7 +6,7 @@ header-footer:
     - ""
     - "%animation:Logo%"
     - "&6&l>> Welcome &7&l%player%&8&l! <<"
-    - "&7Online players: &f%online%"
+    - "&6&lOnline &8&lplayers: &7&l%online%"
     - ""
   footer:
     - "<#FFAA00>&m                                                </#555555>"
