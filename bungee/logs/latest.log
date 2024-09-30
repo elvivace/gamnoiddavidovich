@@ -1,26 +1,55 @@
-[00:00:02] [Netty Worker IO Thread #3/INFO]: [elvivace] disconnected with: Proxy lost connection to server.
-[00:00:02] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:44708|elvivace] <-> DownstreamBridge <-> [lobby] has disconnected
-[00:00:02] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:44708|elvivace] -> UpstreamBridge has disconnected
-[00:02:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47778]: Connected via websocket
-[00:02:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47778]: Origin header is null
-[00:02:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47778]: Logged in as 'elvivace'
-[00:02:29] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47778|elvivace] -> UpstreamBridge has connected
-[00:02:29] [Netty Worker IO Thread #0/INFO]: [elvivace|/[0:0:0:0:0:0:0:1%0]:47778] <-> ServerConnector [lobby] has connected
-[00:07:35] [Netty Worker IO Thread #0/INFO]: [elvivace] disconnected with: Server closed
-[00:07:35] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47778|elvivace] -> UpstreamBridge has disconnected
-[00:07:35] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47778|elvivace] <-> DownstreamBridge <-> [lobby] has disconnected
-[00:08:05] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37566]: Connected via websocket
-[00:08:05] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37566]: Origin header is null
-[00:08:05] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37566]: Logged in as 'elvivace'
-[00:08:05] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:37566|elvivace] -> UpstreamBridge has connected
-[00:08:05] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for elvivace AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
-[00:08:05] [Netty Worker IO Thread #3/INFO]: [elvivace] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
-[00:08:05] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:37566|elvivace] -> UpstreamBridge has disconnected
-[00:09:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57616]: Connected via websocket
-[00:09:12] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57616]: Origin header is null
-[00:09:13] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:57616]: Logged in as 'elvivace'
-[00:09:13] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:57616|elvivace] -> UpstreamBridge has connected
-[00:09:13] [Netty Worker IO Thread #2/INFO]: [elvivace|/[0:0:0:0:0:0:0:1%0]:57616] <-> ServerConnector [lobby] has connected
-[00:11:57] [Netty Worker IO Thread #2/INFO]: [elvivace] disconnected with: Server is restarting
-[00:11:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:57616|elvivace] -> UpstreamBridge has disconnected
-[00:11:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:57616|elvivace] <-> DownstreamBridge <-> [lobby] has disconnected
+[00:43:14] [main/INFO]: Using mbed TLS based native cipher.
+[00:43:14] [main/INFO]: Using zlib based native compressor.
+[00:43:14] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[00:43:14] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[00:43:14] [main/INFO]: Epoll is working, utilising it!
+[00:43:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[00:43:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[00:43:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[00:43:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[00:43:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[00:43:14] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[00:43:14] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[00:43:14] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[00:43:14] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[00:43:14] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[00:43:14] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[00:43:14] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[00:43:14] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[00:43:14] [main/WARN]: :>  
+[00:43:14] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[00:43:14] [main/WARN]: :>  
+[00:43:14] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[00:43:14] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[00:43:14] [main/WARN]: :>  apart from the versions listed below:
+[00:43:14] [main/WARN]: :>  
+[00:43:14] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+[00:43:14] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+[00:43:14] [main/WARN]: :>  - FlameCord: 1.1.1
+[00:43:14] [main/WARN]: :>  
+[00:43:14] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[00:43:14] [main/WARN]: :>  
+[00:43:14] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[00:43:14] [main/WARN]: :>  
+[00:43:14] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[00:43:14] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[00:43:16] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[00:43:16] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[00:43:16] [main/WARN]: Forced host server pvp is not defined
+[00:43:16] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[00:43:16] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[00:43:16] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[00:43:16] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[00:43:16] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[00:43:16] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[00:43:16] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[00:43:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[00:43:16] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[00:43:16] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[00:43:16] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[00:43:16] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/gamnoiddavidovich/bungee/plugins/EaglercraftXBungee/eagcert/$dl.6a314f63448f669bee13950455200751edda2564.cert
+[00:44:04] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47780]: Connected via websocket
+[00:44:04] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47780]: Origin header is null
+[00:44:04] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47780]: Logged in as 'elvivace'
+[00:44:04] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:47780|elvivace] -> UpstreamBridge has connected
+[00:44:04] [Netty Worker IO Thread #1/INFO]: [elvivace|/[0:0:0:0:0:0:0:1%0]:47780] <-> ServerConnector [lobby] has connected

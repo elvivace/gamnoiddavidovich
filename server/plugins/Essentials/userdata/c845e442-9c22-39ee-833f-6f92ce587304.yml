@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1727657588081
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1727655117461
-  login: 1727654953421
+  login: 1727657044997
 money: '0'
 last-account-name: elvivace
 logoutlocation:
@@ -28,3 +28,11 @@ logoutlocation:
   z: 174.9278252238403
   yaw: 298.5000305175781
   pitch: -5.850001335144043
+lastlocation:
+  world: 942d7eb2-df7f-46b9-b71c-d417e5ba38de
+  world-name: world
+  x: 119.37563912169816
+  y: 64.0
+  z: 211.81855308180326
+  yaw: 240.75006103515625
+  pitch: 13.949993133544922
