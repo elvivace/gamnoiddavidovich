@@ -56,3 +56,8 @@
 [00:55:20] [Netty Worker IO Thread #1/INFO]: [elvivace] disconnected with: Server closed
 [00:55:20] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:47780|elvivace] -> UpstreamBridge has disconnected
 [00:55:20] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:47780|elvivace] <-> DownstreamBridge <-> [lobby] has disconnected
+[01:34:45] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50588]: Connected via websocket
+[01:34:45] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50588]: Origin header is null
+[01:34:45] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50588]: Logged in as 'elvivace'
+[01:34:45] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:50588|elvivace] -> UpstreamBridge has connected
+[01:34:45] [Netty Worker IO Thread #3/INFO]: [elvivace|/[0:0:0:0:0:0:0:1%0]:50588] <-> ServerConnector [lobby] has connected

@@ -3,13 +3,14 @@ header-footer:
   enabled: true
   header:
     - "<#FFAA00>&m                                                </#555555>"
+    - ""
     - "%animation:Logo%"
-    - "&7&l>> Welcome &3 &l%player%&7&l! &7&l<<"
+    - "&6&l>> Welcome &7&l%player%&8&l! <<"
     - "&7Online players: &f%online%"
     - ""
   footer:
-    - ""
     - "<#FFAA00>&m                                                </#555555>"
+    - ""
   disable-condition: '%world%=disabledworld'
   per-world:
     world1:
